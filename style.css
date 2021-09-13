@@ -53,7 +53,7 @@ header {
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +68,7 @@ h1 {
   font-family: var(--ff-accent);
   color: var(--clr-neutral-white);
   font-size: 2.8rem;
-  margin: 2rem 0;
+  margin: 3rem 0;
   letter-spacing: 0.5rem;
 }
 @media screen and (min-width: 575px) {
@@ -78,6 +78,9 @@ h1 {
   .header__body {
     margin-top: 5rem;
     align-self: flex-start;
+  }
+  h1 {
+    font-size: 4rem;
   }
 }
 /* #endregion */
@@ -119,7 +122,6 @@ ul.menu__active {
   right: 5%;
   margin-inline: auto;
   background-color: var(--clr-neutral-white);
-  /* width: 90%; */
   padding-block: 2rem;
 }
 
@@ -143,14 +145,14 @@ ul.menu__active li a {
 }
 
 nav ul li a {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-family: var(--ff-primary);
   color: var(--clr-neutral-label);
   text-decoration: none;
 }
 .menu__highlight {
   font-family: var(--ff-accent);
-  font-size: 0.7rem;
+  font-size: 1rem;
   background-color: var(--clr-primary-yellow);
   color: var(--clr-neutral-heading);
   font-weight: 900;
@@ -314,6 +316,9 @@ nav ul li {
   }
   .card__content p {
     font-size: 18px;
+    line-height: 1.8rem;
+    font-family: var(--ff-primary);
+    color: var(--clr-neutral-paragraphs-text);
   }
 }
 /* #endregion */
