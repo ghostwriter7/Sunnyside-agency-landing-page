@@ -98,7 +98,7 @@ nav {
 }
 
 nav svg {
-  width: 30%;
+  width: auto;
   height: 1.7rem;
   color: var(--clr-neutral-white);
 }
