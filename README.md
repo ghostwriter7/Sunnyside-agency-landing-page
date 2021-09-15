@@ -1,5 +1,5 @@
 # Sunnyside-agency-landing-page
-Challenge at Frontend Mentor - single page website
+Challenge at Frontend Mentor - single page website</br>
 Difficulty level: <b>Junior</b>
 
 Live preview: <a href="https://sunnyside-agency-landing-page-eta.vercel.app">Link</a>
